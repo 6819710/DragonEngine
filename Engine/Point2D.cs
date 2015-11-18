@@ -64,5 +64,17 @@ namespace Dragon.Engine
                 _y = value;
             }
         }
+
+
+        /// <summary>
+        /// Converts Point to Vector in 2D Space.
+        /// </summary>
+        public Vector2D Vector2D
+        {
+            get
+            {
+                return new Vector2D(_x, _y);
+            }
+        }
     }
 }
