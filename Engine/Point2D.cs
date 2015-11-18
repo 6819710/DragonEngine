@@ -32,5 +32,37 @@ namespace Dragon.Engine
             _x = x;
             _y = y;
         }
+
+        /// <summary>
+        /// Property: X Coordinate.
+        /// </summary>
+        public double X
+        {
+            get
+            {
+                return _x;
+            }
+
+            set
+            {
+                _x = value;
+            }
+        }
+
+        /// <summary>
+        /// Property: Y Coordinate.
+        /// </summary>
+        public double Y
+        {
+            get
+            {
+                return _y;
+            }
+
+            set
+            {
+                _y = value;
+            }
+        }
     }
 }

@@ -36,5 +36,53 @@ namespace Dragon.Engine
             _y = y;
             _z = z;
         }
+
+        /// <summary>
+        /// Property: X Coordinate.
+        /// </summary>
+        public double X
+        {
+            get
+            {
+                return _x;
+            }
+
+            set
+            {
+                _x = value;
+            }
+        }
+
+        /// <summary>
+        /// Property: Y Coordinate.
+        /// </summary>
+        public double Y
+        {
+            get
+            {
+                return _y;
+            }
+
+            set
+            {
+                _y = value;
+            }
+        }
+
+        /// <summary>
+        /// Property: Z Coordinate.
+        /// </summary>
+        public double Z
+        {
+            get
+            {
+                return _z;
+            }
+
+            set
+            {
+                _z = value;
+            }
+        }
     }
 }
