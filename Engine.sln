@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dragon.Engine", "Engine\Dragon.Engine.csproj", "{3BDF549A-5986-4FB8-9906-917C5483DF94}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dragon.EngineTests", "Dragon.EngineTests\Dragon.EngineTests.csproj", "{53073129-59E5-4267-94D6-8B635D06AAD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3BDF549A-5986-4FB8-9906-917C5483DF94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BDF549A-5986-4FB8-9906-917C5483DF94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BDF549A-5986-4FB8-9906-917C5483DF94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53073129-59E5-4267-94D6-8B635D06AAD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53073129-59E5-4267-94D6-8B635D06AAD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53073129-59E5-4267-94D6-8B635D06AAD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53073129-59E5-4267-94D6-8B635D06AAD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
