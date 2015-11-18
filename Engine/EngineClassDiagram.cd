@@ -3,16 +3,29 @@
   <Class Name="Dragon.Engine.Point2D">
     <Position X="0.5" Y="0.5" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAIAAQAEAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
       <FileName>Point2D.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Vector2D" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="Dragon.Engine.Point3D">
     <Position X="3" Y="0.5" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <HashCode>AAAAAAAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAE=</HashCode>
       <FileName>Point3D.cs</FileName>
     </TypeIdentifier>
+  </Class>
+  <Class Name="Dragon.Engine.Vector2D">
+    <Position X="0.5" Y="4.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAABAAAAAAAAgAAAAAAAAACABAAA=</HashCode>
+      <FileName>Vector2D.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Point2D" />
+    </ShowAsAssociation>
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
