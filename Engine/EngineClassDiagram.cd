@@ -17,11 +17,11 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="Dragon.Engine.Point3D">
-    <Position X="6" Y="0.5" Width="2.75" />
+    <Position X="3.5" Y="0.5" Width="2.75" />
     <AssociationLine Name="Vector3D" Type="Dragon.Engine.Vector3D" FixedToPoint="true">
       <Path>
-        <Point X="7.188" Y="3.468" />
-        <Point X="7.188" Y="4.25" />
+        <Point X="4.688" Y="3.468" />
+        <Point X="4.688" Y="4.25" />
       </Path>
     </AssociationLine>
     <TypeIdentifier>
@@ -49,11 +49,11 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="Dragon.Engine.Vector3D">
-    <Position X="6" Y="4.25" Width="2.75" />
+    <Position X="3.5" Y="4.25" Width="2.75" />
     <AssociationLine Name="Point3D" Type="Dragon.Engine.Point3D" FixedToPoint="true">
       <Path>
-        <Point X="8.188" Y="4.25" />
-        <Point X="8.188" Y="3.468" />
+        <Point X="5.688" Y="4.25" />
+        <Point X="5.688" Y="3.468" />
       </Path>
     </AssociationLine>
     <TypeIdentifier>
@@ -63,6 +63,13 @@
     <ShowAsAssociation>
       <Property Name="Point3D" />
     </ShowAsAssociation>
+  </Class>
+  <Class Name="Dragon.Engine.Matrix2D">
+    <Position X="8.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Matrix2D.cs</FileName>
+    </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
