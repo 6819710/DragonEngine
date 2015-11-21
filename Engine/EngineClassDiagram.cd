@@ -10,7 +10,7 @@
     </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAIAAQAEAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
-      <FileName>Point2D.cs</FileName>
+      <FileName>Geometry\Point2D.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Vector2D" />
@@ -26,7 +26,7 @@
     </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAIAAQACAAAAAAAAAAAAAAAAAAAAAAAAAAAYAE=</HashCode>
-      <FileName>Point3D.cs</FileName>
+      <FileName>Geometry\Point3D.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Vector3D" />
@@ -42,7 +42,7 @@
     </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAIAAAAAAAAAABAAAAAAAAgAAAAAAAAACMBAAA=</HashCode>
-      <FileName>Vector2D.cs</FileName>
+      <FileName>Geometry\Vector2D.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Point2D" />
@@ -58,7 +58,7 @@
     </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAIAAAAAAAAAABAAAAAAAAgAAAAAQAAAKMBAAA=</HashCode>
-      <FileName>Vector3D.cs</FileName>
+      <FileName>Geometry\Vector3D.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Point3D" />
@@ -68,7 +68,14 @@
     <Position X="7" Y="0.5" Width="3.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAQAAAAAAAIEACAAAAACABAAAAAAAAAAA=</HashCode>
-      <FileName>Matrix2D.cs</FileName>
+      <FileName>Math\Matrix2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dragon.Engine.Mathematics.Transformation">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Math\Transformation.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
