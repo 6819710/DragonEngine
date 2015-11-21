@@ -2,6 +2,12 @@
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="Dragon.Engine.Point2D">
     <Position X="0.5" Y="0.5" Width="2.25" />
+    <AssociationLine Name="Vector2D" Type="Dragon.Engine.Vector2D" FixedToPoint="true">
+      <Path>
+        <Point X="1.312" Y="3.084" />
+        <Point X="1.312" Y="4.25" />
+      </Path>
+    </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAIAAQAEAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
       <FileName>Point2D.cs</FileName>
@@ -11,20 +17,51 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="Dragon.Engine.Point3D">
-    <Position X="3" Y="0.5" Width="2.75" />
+    <Position X="6" Y="0.5" Width="2.75" />
+    <AssociationLine Name="Vector3D" Type="Dragon.Engine.Vector3D" FixedToPoint="true">
+      <Path>
+        <Point X="7.188" Y="3.468" />
+        <Point X="7.188" Y="4.25" />
+      </Path>
+    </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAE=</HashCode>
+      <HashCode>AAAAAAAIAAQACAAAAAAAAAAAAAAAAAAAAAAAAAAAYAE=</HashCode>
       <FileName>Point3D.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Vector3D" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="Dragon.Engine.Vector2D">
     <Position X="0.5" Y="4.25" Width="2.25" />
+    <AssociationLine Name="Point2D" Type="Dragon.Engine.Point2D" FixedToPoint="true">
+      <Path>
+        <Point X="2.312" Y="4.25" />
+        <Point X="2.312" Y="3.084" />
+      </Path>
+    </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAIAAAAAAAAAABAAAAAAAAgAAAAAAAAACABAAA=</HashCode>
+      <HashCode>AAAAAAAIAAAAAAAAAABAAAAAAAAgAAAAAAAAACMBAAA=</HashCode>
       <FileName>Vector2D.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Point2D" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Dragon.Engine.Vector3D">
+    <Position X="6" Y="4.25" Width="2.75" />
+    <AssociationLine Name="Point3D" Type="Dragon.Engine.Point3D" FixedToPoint="true">
+      <Path>
+        <Point X="8.188" Y="4.25" />
+        <Point X="8.188" Y="3.468" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAABAAAAAAAAgAAAAAQAAAKMBAAA=</HashCode>
+      <FileName>Vector3D.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Point3D" />
     </ShowAsAssociation>
   </Class>
   <Font Name="Segoe UI" Size="9" />

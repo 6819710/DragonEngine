@@ -66,6 +66,17 @@ namespace Dragon.Engine
         }
 
         /// <summary>
+        /// Property: Magnitude.
+        /// </summary>
+        public double Magnitude
+        {
+            get
+            {
+                return CalculateMagnitude();
+            }
+        }
+
+        /// <summary>
         /// Converts Vector to Point in 2D Space.
         /// </summary>
         public Point2D Point2D
@@ -74,6 +85,15 @@ namespace Dragon.Engine
             {
                 return new Point2D(_i, _j);
             }
+        }
+
+        /// <summary>
+        /// Calculates Vector Magnitude.
+        /// </summary>
+        /// <returns>Magnitude.</returns>
+        public double CalculateMagnitude()
+        {
+            return Math.Sqrt(Math.Pow(_i, 2) + Math.Pow(_j, 2));
         }
     }
 }
