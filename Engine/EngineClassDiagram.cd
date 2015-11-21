@@ -65,9 +65,9 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="Dragon.Engine.Matrix2D">
-    <Position X="8.25" Y="3" Width="1.5" />
+    <Position X="7" Y="0.5" Width="3.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAQAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAIEACAAAAACABAAAAAAAAAAA=</HashCode>
       <FileName>Matrix2D.cs</FileName>
     </TypeIdentifier>
   </Class>

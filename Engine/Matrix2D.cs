@@ -43,5 +43,69 @@ namespace Dragon.Engine
             _b1 = b1;
             _b2 = b2;
         }
+
+        /// <summary>
+        /// Property: A1
+        /// </summary>
+        public double A1
+        {
+            get
+            {
+                return _a1;
+            }
+
+            set
+            {
+                _a1 = value;
+            }
+        }
+
+        /// <summary>
+        /// Property: A2
+        /// </summary>
+        public double A2
+        {
+            get
+            {
+                return _a2;
+            }
+
+            set
+            {
+                _a2 = value;
+            }
+        }
+
+        /// <summary>
+        /// Property: B1
+        /// </summary>
+        public double B1
+        {
+            get
+            {
+                return _b1;
+            }
+
+            set
+            {
+                _b1 = value;
+            }
+        }
+
+        /// <summary>
+        /// Property: B2
+        /// </summary>
+        public double B2
+        {
+            get
+            {
+                return _b2;
+            }
+
+            set
+            {
+                _b2 = value;
+            }
+        }
     }
 }
