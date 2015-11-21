@@ -51,6 +51,7 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="Matrix2DTests.cs" />
     <Compile Include="Point2DTests.cs" />
     <Compile Include="Point3DTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
