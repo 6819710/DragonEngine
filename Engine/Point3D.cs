@@ -27,9 +27,9 @@ namespace Dragon.Engine
         /// <summary>
         /// Constucts Point in 3D Space.
         /// </summary>
-        /// <param name="x"></param>
-        /// <param name="y"></param>
-        /// <param name="z"></param>
+        /// <param name="x">X Coordinate.</param>
+        /// <param name="y">Y Coordinate.</param>
+        /// <param name="z">Z Coordinate.</param>
         public Point3D(double x, double y, double z)
         {
             _x = x;
@@ -82,6 +82,17 @@ namespace Dragon.Engine
             set
             {
                 _z = value;
+            }
+        }
+
+        /// <summary>
+        /// Converts Point to Vector in 3D Space.
+        /// </summary>
+        public Vector3D Vector3D
+        {
+            get
+            {
+                throw new System.NotImplementedException();
             }
         }
     }
