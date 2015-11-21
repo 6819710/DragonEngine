@@ -17,6 +17,9 @@ namespace Dragon.Engine
         private double _b1;
         private double _b2;
 
+        /// <summary>
+        /// Constructs 2D matrix (2 x 2) using default values.
+        /// </summary>
         public Matrix2D()
         {
             _a1 = 1;
@@ -25,8 +28,15 @@ namespace Dragon.Engine
             _b2 = 1;
         }
 
+        /// <summary>
+        /// Constructs 2D matrix (2 x 2) using provided values.
+        /// </summary>
+        /// <param name="a1">Row A Column 1.</param>
+        /// <param name="a2">Row A Column 2.</param>
+        /// <param name="b1">Row B Column 1.</param>
+        /// <param name="b2">Row B Column 2.</param>
         public Matrix2D(double a1, double a2,
-                 double b1, double b2)
+                        double b1, double b2)
         {
             _a1 = a1;
             _a2 = a2;
